@@ -40,7 +40,7 @@ HTTP/1.1 200 OK
 4. **Payload** or response data
 
 ### How to use it
-* **cURL** allows you to make HTTP requests and return the raw response in your terminal
+* **cURL**, a command line library, allows you to make HTTP requests and return the raw response in your terminal
 * The HTML elements ```<a>``` and ```<form>``` make HTTP requests to request the resource specified in the ```href``` url and to ```GET``` or ```POST``` data to the ```action``` attribute's url 
 
 
