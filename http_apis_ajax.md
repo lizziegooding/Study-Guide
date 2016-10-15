@@ -10,8 +10,21 @@
 ![Client-server request-response cycle](https://zapier.cachefly.net/static/1BMOoE/images/learn/apis/ch2-request-response-cycle.gif)
 ### Anatomy
 #### HTTP Request
-* Starts with ```GET```, ```POST```, ```PUT```, ```PATCH```, or ```DELETE```
-* 
+1. Starts with ```GET```, ```POST```, ```PUT```, ```PATCH```, or ```DELETE```
+2. Next is the **URI**, uniform resource identifier
+3. HTTP/
+4. Version of HTTP
+
+For example, ```GET /xml HTTP/1.1```
+
+HTTP requests often include **headers** which are described in key value pairs. 
+For example,
+```
+Headers
+Host: httpbin.org
+```
+
+#### HTTP Response
 
 ### How to use it
 * **cURL** allows yout to make HTTP requests and return the raw response in your terminal
