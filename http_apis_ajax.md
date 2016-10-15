@@ -63,5 +63,7 @@ HTTP/1.1 200 OK
 * A technique for requesting a loading data from a server into an HTML page without having to refresh the entire page
 * AJAX allows direct access to API data using JavaScript instead of a server-side programming language
 
-
+### How to use it
+* Most commonly used with jQuery which provides greater efficiency and cross-browser support
+* AJAX requests only work on a web server
 
