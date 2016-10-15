@@ -41,7 +41,7 @@ HTTP/1.1 200 OK
 
 ### How to use it
 * **cURL** allows you to make HTTP requests and return the raw response in your terminal
-* The HTML elements ```<a>``` and ```<form>``` make HTTP requests to request the resource specified in the ```href``` url and to ```GET``` or ```POST``` data to the ```action``` attribute's url respectively 
+* The HTML elements ```<a>``` and ```<form>``` make HTTP requests to request the resource specified in the ```href``` url and to ```GET``` or ```POST``` data to the ```action``` attribute's url 
 
 
 ## APIs
