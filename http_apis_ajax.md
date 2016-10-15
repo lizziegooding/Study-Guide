@@ -10,7 +10,8 @@
 ![Client-server request-response cycle](https://zapier.cachefly.net/static/1BMOoE/images/learn/apis/ch2-request-response-cycle.gif)
 ### Anatomy
 #### HTTP Request
-
+* Starts with ```GET```, ```POST```, ```PUT```, ```PATCH```, or ```DELETE```
+* 
 
 ### How to use it
 * **cURL** allows yout to make HTTP requests and return the raw response in your terminal
