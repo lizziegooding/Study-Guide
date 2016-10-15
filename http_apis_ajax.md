@@ -57,6 +57,8 @@ HTTP/1.1 200 OK
 
 ## AJAX
 ### What is it?
+* Stands for asynchronous processing model
+* A technique for requesting a loading data from a server into an HTML page without having to refresh the entire page
 * AJAX allows direct access to API data using JavaScript instead of a server-side programming language
 * API keys act as passwords and are required by some websites. They let the server know who is requesting their content and track how much content they're requesting
 
