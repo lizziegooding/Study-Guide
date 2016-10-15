@@ -50,7 +50,10 @@ HTTP/1.1 200 OK
 * How programmers search for, access, post, and retreive information online
 * Method for connecting your site to a 3rd party webservice
 * Defines what the client (your web browser) can get from a web server and how you get it
-* 
+
+### How to use it
+* API requests can be made directly in the browser or terminal, but it's hard to work with the returned data
+* Most API requests will be called using a **wrapper library**, a thin layer of code which translates a library's existing interface into a compatible interface. Wrapper libraries work like a translator to enable cross language interoperability
 
 ## AJAX
 ### What is it?
