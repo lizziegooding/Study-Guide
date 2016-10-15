@@ -27,6 +27,8 @@ Headers
 Host: httpbin.org
 ```
 
+**URLs**, uniform resource locators, are URIs which contain instructions on how to load the resource and explicitly list http or https as the protocol and the host name. The example ```GET``` request above is equivalent to the following URL: ```http://httpbin.org/xml``` where ```http://``` is the protocol, ```httpbin.org``` is the host name and ```/xml``` is the URI.
+
 #### HTTP Response
 1. Status, in the format:
 ```
