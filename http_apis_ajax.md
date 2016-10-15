@@ -8,6 +8,9 @@
 * Functions mainly as a request-response cycle
 
 ![Client-server request-response cycle](https://zapier.cachefly.net/static/1BMOoE/images/learn/apis/ch2-request-response-cycle.gif)
+* Web browsers are GUIs for HTTP
+
+
 ### Anatomy
 #### HTTP Request
 1. Starts with ```GET```, ```POST```, ```PUT```, ```PATCH```, or ```DELETE```
