@@ -25,9 +25,17 @@ Host: httpbin.org
 ```
 
 #### HTTP Response
+1. Status, in the format:
+```
+HTTP/[version][status code][status message]
+HTTP/1.1 200 OK
+```
+2. Headers, specified in request and default
+3. Blank line
+4. **Payload** or response data
 
 ### How to use it
-* **cURL** allows yout to make HTTP requests and return the raw response in your terminal
+* **cURL** allows you to make HTTP requests and return the raw response in your terminal
 
 
 ## APIs
