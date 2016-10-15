@@ -54,12 +54,14 @@ HTTP/1.1 200 OK
 ### How to use it
 * API requests can be made directly in the browser or terminal, but it's hard to work with the returned data
 * Most API requests will be called using a **wrapper library**, a thin layer of code which translates a library's existing interface into a compatible interface. Wrapper libraries work like a translator to enable cross language interoperability
+* Some APIs require API keys, which act like passwords. They let the server know who is requesting their content and track how much content they're requesting
 
 ## AJAX
 ### What is it?
 * Stands for **asynchronous javascript and xml**
+* From MDN: the use of the XMLHttpRequest object to communicate with server-side scripts
 * A technique for requesting a loading data from a server into an HTML page without having to refresh the entire page
 * AJAX allows direct access to API data using JavaScript instead of a server-side programming language
-* API keys act as passwords and are required by some websites. They let the server know who is requesting their content and track how much content they're requesting
+
 
 
