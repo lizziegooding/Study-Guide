@@ -32,7 +32,7 @@ Host: httpbin.org
 
 
 ---
-
+From Lyzi Diamond: https://github.com/lyzidiamond/explains/blob/master/how-the-internet-works.md#request-methods
 
 #### Request methods
 
@@ -49,7 +49,14 @@ Common request methods include:
 
 When you type a URL into the browser and press enter, your browser makes a `GET` request to a server for a specific resource.
 
+The URL is broken into a few parts:
 
+`https://hostname:port/path-or-endpoint/resource?query=parameter`
+
+- **hostname:port**: this is the main location of the server. When you type a URL into the browser and press enter (or use any other client), the URL is translated to an IP address using **[DNS (domain name system)](https://en.wikipedia.org/wiki/Domain_Name_System)**, which is like a phone book for domain names, and the request is routed to the correct device (most typically a server). When that server is identified, the client establishes a connection with the server that is listening for request (this is called an HTTP server). The HTTP server then interprets the request, usually by routing it to the code related to the specificed **endpoint**. (Note: most of the time, the _port_ is not explicitly defined and instead is handled by the server.)
+- **path-or-endpoint**: once on the server, this is where to look for the resource. In the case of web pages, this is considered to be a _path_. When engaging with an API, it is often called an **endpoint** (see below for more information on APIs).
+- **resource**: the actual resource being requested. This can be a webpage (like `index.html`), an image (like `puppies.jpg`), or some other resource.
+- **query=parameter**: query parameters allow you to send additional information along with the request. Sometimes this provides more information for the server to better respond to the request.
 
 ---
 
