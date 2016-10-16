@@ -58,6 +58,12 @@ The URL is broken into a few parts:
 - **resource**: the actual resource being requested. This can be a webpage (like `index.html`), an image (like `puppies.jpg`), or some other resource.
 - **query=parameter**: query parameters allow you to send additional information along with the request. Sometimes this provides more information for the server to better respond to the request.
 
+#### HTTP Responses
+
+If you type a URL into a browser window and press enter, you are making a `GET` request for whatever resource is at the other end of that URL. Most of the time this is a HTML webpage. In this case, the server interprets the request, and returns the HTML page to be displayed in your browser.
+
+HTML pages tend to also require a bunch of other resources besides the HTML page itself, including JavaScript and CSS files, images, fonts, content from databases, and much more. Once the HTML page is returned to the browser, the browser reads through it and makes requests for everything that is listed in the `head` and `body` of the HTML page. As an example, to load `www.mapbox.com` requires nearly 100 individual HTTP requests, including SVGs like [turf.svg](https://www.mapbox.com/home/icons/turf.svg), JavaScript files like [base.js](https://www.mapbox.com/base.js/dist/base.js), fonts like OpenSans, and even [static map images](https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/static/140.01,-21.24,3/800x500?access_token=pk.eyJ1IjoibXNsZWUiLCJhIjoiclpiTWV5SSJ9.P_h8r37vD8jpIH1A6i1VRg) from the Mapbox Static API.
+
 ---
 
 #### HTTP Response
