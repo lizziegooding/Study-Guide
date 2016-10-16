@@ -29,6 +29,30 @@ Host: httpbin.org
 
 **URLs**, uniform resource locators, are URIs which contain instructions on how to load the resource and explicitly list http or https as the protocol and the host name. The example ```GET``` request above is equivalent to the following URL: ```http://httpbin.org/xml``` where ```http://``` is the protocol, ```httpbin.org``` is the host name and ```/xml``` is the URI.
 
+
+
+---
+
+
+#### Request methods
+
+Common request methods include:
+
+- `GET`: this is the most common request when accessing a website with your browser. A `GET` request method indicates that the client is requesting some resource from the server, but is not sending any resources along with the request.
+  - Example: typing www.facebook.com into your browser and pressing enter. You are requesting the Facebook webpage.
+- `POST`: sends a request along with a resource to be posted to the server.
+  - Example: making a Facebook status update and pressing submit. The status update is sent as the `body` of the request.
+- `DELETE`: sends a request to delete a resource on the server.
+  - Example: deleting a Facebook status update.
+- `PUT`: this method sends a request to post something to the server; if there is already something at the specified location, it is modified.
+  - Example: editing a Facebook status update. The new status update is sent as the `body` of the request.
+
+When you type a URL into the browser and press enter, your browser makes a `GET` request to a server for a specific resource.
+
+
+
+---
+
 #### HTTP Response
 1. Status, in the format:
 ```
